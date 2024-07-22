@@ -56,11 +56,11 @@ export function Skills() {
           // variant="lead"
           className="mx-auto w-full !text-gray-500 lg:w-10/12"
         >
-          I'm glad to have the privilege of experiencing various technologies
-          and programming paradigms with a strong understanding of computer
-          technology and a wholesome exposure to different areas of expertise.
-          The follwing are few of the many skills that I possess and tirelessly
-          work to become better and better day-by-day
+          I&apos;m glad to have the privilege of experiencing various
+          technologies and programming paradigms with a strong understanding of
+          computer technology and a wholesome exposure to different areas of
+          expertise. The follwing are few of the many skills that I possess and
+          tirelessly work to become better and better day-by-day
         </div>
       </div>
       <div className="container mx-auto grid grid-cols-1 gap-y-10 md:grid-cols-2 lg:grid-cols-3">

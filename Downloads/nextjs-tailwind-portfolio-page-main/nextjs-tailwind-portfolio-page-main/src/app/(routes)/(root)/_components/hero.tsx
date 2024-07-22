@@ -15,7 +15,7 @@ function Hero() {
           </div>
           <div className="mb-4 !text-gray-500 md:pr-16 xl:pr-28 text-lg">
             <p>
-              I'm Anish Singaraiah, a passionate Software Developer. As a
+              I&apos;m Anish Singaraiah, a passionate Software Developer. As a
               Computer Science and Business Systems graduate with a gold medal
               for academic excellence, I excel in JavaScript, TypeScript,
               Python, HTML, CSS, C/C++, ReactJS, AngularJS, Next.js and SQL
