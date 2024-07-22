@@ -80,14 +80,14 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
           <Link href="https://www.linkedin.com/in/anish-jakka-singaraiah/">
-            <Button variant="gradient" size="sm">
+            <button className="bg-gray-900 m-1 p-1 rounded-md">
               <LinkedinIcon />
-            </Button>
+            </button>
           </Link>
           <Link href="https://github.com/Anish-JS">
-            <Button variant="gradient" size="sm">
+            <button className="bg-gray-900 m-1 p-1 rounded-md">
               <GithubIcon />
-            </Button>
+            </button>
           </Link>
         </div>
         <IconButton
@@ -113,12 +113,6 @@ export function Navbar() {
               </NavItem>
             ))}
           </ul>
-          <div className="mt-6 mb-4 flex items-center gap-2">
-            <Button variant="text">Sign In</Button>
-            <a href="https://www.material-tailwind.com/blocks" target="_blank">
-              <Button color="gray">blocks</Button>
-            </a>
-          </div>
         </div>
       </Collapse>
     </MTNavbar>

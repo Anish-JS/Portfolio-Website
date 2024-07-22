@@ -30,13 +30,9 @@ export function Resume() {
             dynamic environment where I can apply my skills and learn new ones.
           </div>
           <Link href="https://drive.google.com/file/d/1PTVviWzgMKntHhiqLPRYIovefSCIuFRc/view?usp=sharing">
-            <Button
-              variant="gradient"
-              color="gray"
-              className="flex items-center gap-2"
-            >
+            <button className="flex items-center gap-2 bg-gray-900 text-gray-50 p-2 rounded-md">
               View
-            </Button>
+            </button>
           </Link>
         </div>
         <div className="col-span-1 grid gap-y-6 lg:ml-auto pr-0 lg:pr-12 xl:pr-32">
