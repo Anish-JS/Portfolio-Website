@@ -2,10 +2,10 @@
 import React from "react";
 import { LinkedinIcon, Github, GithubIcon } from "lucide-react";
 import {
-  Navbar as MTNavbar,
   Collapse,
   Button,
   IconButton,
+  Navbar as MTNavbar,
 } from "@material-tailwind/react";
 import {
   RectangleStackIcon,
@@ -65,7 +65,8 @@ export function Navbar() {
   }, []);
 
   return (
-    <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    // <MTNavbar shadow={false} fullWidth className="border-0 sticky top-0 z-50">
+    <div className="border-0 sticky top-0 z-50 max-w-full p-4 bg-white">
       <div className="container mx-auto flex items-center justify-between">
         <div className="text-lg font-bold text-gray-900">
           Anish Jakka Singaraiah
@@ -80,28 +81,23 @@ export function Navbar() {
         </ul>
         <div className="hidden items-center gap-2 lg:flex">
           <Link href="https://www.linkedin.com/in/anish-jakka-singaraiah/">
-            <button className="bg-gray-900 m-1 p-1 rounded-md">
+            <button className="bg-gray-900 text-gray-50 m-1 p-1 rounded-md">
               <LinkedinIcon />
             </button>
           </Link>
           <Link href="https://github.com/Anish-JS">
-            <button className="bg-gray-900 m-1 p-1 rounded-md">
+            <button className="bg-gray-900 text-gray-50 m-1 p-1 rounded-md">
               <GithubIcon />
             </button>
           </Link>
         </div>
-        <IconButton
-          variant="text"
-          color="gray"
-          onClick={handleOpen}
-          className="ml-auto inline-block lg:hidden"
-        >
+        <div onClick={handleOpen} className="ml-auto inline-block lg:hidden">
           {open ? (
             <XMarkIcon strokeWidth={2} className="h-6 w-6" />
           ) : (
             <Bars3Icon strokeWidth={2} className="h-6 w-6" />
           )}
-        </IconButton>
+        </div>
       </div>
       <Collapse open={open}>
         <div className="container mx-auto mt-3 border-t border-gray-200 px-2 pt-4">
@@ -115,7 +111,7 @@ export function Navbar() {
           </ul>
         </div>
       </Collapse>
-    </MTNavbar>
+    </div>
   );
 }
 
