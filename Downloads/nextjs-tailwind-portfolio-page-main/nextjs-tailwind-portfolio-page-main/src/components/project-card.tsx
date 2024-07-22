@@ -20,7 +20,7 @@ export function ProjectCard({
     <div className="p-4 m-4 bg-gray-200 rounded-xl shadow-sm">
       <div className="p-0">
         <div className="text-blue-gray-900 transition-colors hover:text-gray-800">
-          <div className="mb-2 text-3xl">{title}</div>
+          <div className="mb-2 text-2xl">{title}</div>
         </div>
         <div className="mb-6 font-normal !text-gray-700 text-md">
           {description}

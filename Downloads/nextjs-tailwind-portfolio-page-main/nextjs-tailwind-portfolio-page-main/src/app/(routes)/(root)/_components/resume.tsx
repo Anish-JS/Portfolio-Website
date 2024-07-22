@@ -1,6 +1,5 @@
 "use client";
 
-import { Button } from "@material-tailwind/react";
 import { ChartBarIcon } from "@heroicons/react/24/solid";
 import { ResumeItem } from "@/components";
 import { Medal } from "lucide-react";

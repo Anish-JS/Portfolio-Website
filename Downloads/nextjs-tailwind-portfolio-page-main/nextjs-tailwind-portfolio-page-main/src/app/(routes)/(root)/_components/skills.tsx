@@ -52,10 +52,7 @@ export function Skills() {
         <div color="blue-gray" className="mb-4 text-2xl lg:text-4xl">
           My Skills
         </div>
-        <div
-          // variant="lead"
-          className="mx-auto w-full !text-gray-500 lg:w-10/12"
-        >
+        <div className="mx-auto w-full !text-gray-500 lg:w-10/12">
           I&apos;m glad to have the privilege of experiencing various
           technologies and programming paradigms with a strong understanding of
           computer technology and a wholesome exposure to different areas of

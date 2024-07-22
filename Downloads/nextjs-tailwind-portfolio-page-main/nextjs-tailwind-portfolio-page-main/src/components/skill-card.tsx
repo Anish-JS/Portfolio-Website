@@ -9,8 +9,8 @@ interface SkillCardProps {
 
 export function SkillCard({ icon: Icon, title, types }: SkillCardProps) {
   return (
-    <Card color="transparent" shadow={false}>
-      <CardBody className="grid justify-center text-center">
+    <div className="bg-transparent shadow-sm text-gray-800">
+      <div className="grid justify-center text-center ">
         <div className="flex flex-col">
           <div className="mx-auto mb-6 grid h-12 w-12 place-items-center rounded-full bg-gray-900 p-2.5 text-white shadow">
             <Icon className="h-6 w-6" strokeWidth={2} />
@@ -19,11 +19,11 @@ export function SkillCard({ icon: Icon, title, types }: SkillCardProps) {
         </div>
         <div className="px-8 font-normal !text-gray-500">
           {types.map((type) => (
-            <Chip key={type} value={type} variant="ghost" className="m-2" />
+            <Chip key={type} value={type} variant="ghost" className="m-3" />
           ))}
         </div>
-      </CardBody>
-    </Card>
+      </div>
+    </div>
   );
 }
 
