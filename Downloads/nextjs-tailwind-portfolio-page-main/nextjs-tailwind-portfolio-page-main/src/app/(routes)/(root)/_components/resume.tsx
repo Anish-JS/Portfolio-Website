@@ -28,7 +28,7 @@ export function Resume() {
             business objectives. I am looking for a new challenging role in a
             dynamic environment where I can apply my skills and learn new ones.
           </div>
-          <Link href="https://drive.google.com/file/d/1PTVviWzgMKntHhiqLPRYIovefSCIuFRc/view?usp=sharing">
+          <Link href="https://drive.google.com/file/d/1X5XsmQzWfr7ysvGnG3P9saS6socWo99f/view?usp=sharing">
             <button className="flex items-center gap-2 bg-gray-900 text-gray-50 p-2 rounded-md">
               View
             </button>
